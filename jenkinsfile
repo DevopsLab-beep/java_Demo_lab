@@ -2,9 +2,9 @@ pipeline{
   agent any
 
   stage {
-      stage("Hello"){
+      stage("Hello World"){
           stage{
-                echo "Hello This is sample testing"
+                echo "Hello This is sample testing for the pipeline"
             }
         }
     }
